@@ -1,13 +1,9 @@
-# Lee Andrew DeLorme — Professional Website
+# Lee Andrew DeLorme — Personal Master Brand Site
 
-Personal professional portfolio for Lee Andrew DeLorme.
+Version 3 evolves the site into a navy, ivory and muted-gold Wayfinder-inspired identity.
 
-## Publish with GitHub Pages
-This repository is designed for the GitHub user site `LA-DELORME.github.io`.
+## Publish
+Upload the contents of this folder to the root of the `LA-DELORME.github.io` repository and commit the changes.
 
-Files:
-- `index.html` — website content
-- `style.css` — visual design and responsive layout
-- `assets/lee-andrew-delorme-portrait.png` — portrait
-
-Before final launch, replace the contact placeholder in `index.html` with the preferred email/social links and add the final résumé PDF if desired.
+## Contact
+The LinkedIn button currently uses the known profile URL. The Email button intentionally opens a blank-address mail draft until a public email address is added.
