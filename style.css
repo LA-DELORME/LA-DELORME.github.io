@@ -32,3 +32,7 @@ footer{background:#041625;color:#aeb8b8;padding:2rem 5vw;display:flex;justify-co
 /* Editorial insight: present-tense observations */
 .canine-insight{margin:2.4rem 0;padding:.3rem 0 .3rem 1.6rem;border-left:3px solid var(--gold);max-width:790px}
 .intro .canine-insight p{font-family:"Libre Caslon Display",Georgia,serif;font-size:clamp(1.45rem,2.1vw,2rem);line-height:1.4;color:var(--ink);margin:0}
+
+/* Restored professional occupation listing */
+.hero .occupations{max-width:760px;color:#cbd2d3;font-size:clamp(.85rem,1.05vw,1rem);line-height:1.8;margin:.5rem 0 0}
+.hero .occupations span{color:var(--gold);padding:0 .2rem}
