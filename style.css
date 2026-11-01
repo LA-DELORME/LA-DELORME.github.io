@@ -21,3 +21,34 @@
 .contact{background:var(--navy);color:var(--ivory);padding:8rem 8vw;position:relative;overflow:hidden}.contact-chart{position:absolute;width:48vw;height:48vw;border:1px solid rgba(185,154,93,.22);border-radius:50%;right:-18vw;top:-16vw}.contact-chart:after{content:"✦";position:absolute;left:29%;top:48%;color:var(--gold);font-size:2rem}.contact .section-label{color:var(--gold2)}.contact h2{font-size:clamp(3.8rem,8vw,8.2rem);line-height:.92;margin:.22em 0;position:relative}.contact>p:not(.section-label):not(.contact-small){color:#cbd2d3}.contact-actions{display:flex;gap:1rem;margin-top:2rem}.button.light{background:var(--ivory);color:var(--navy)}.outline-button{border:1px solid var(--gold);color:var(--ivory);padding:.84rem 1.3rem;text-decoration:none;font-size:.82rem}.contact-small{margin-top:4rem;color:var(--gold2);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase}
 footer{background:#041625;color:#aeb8b8;padding:2rem 5vw;display:flex;justify-content:space-between;font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;border-top:1px solid rgba(185,154,93,.2)}
 @media(max-width:900px){.site-header nav{display:none}.hero{grid-template-columns:1fr}.hero-copy{padding:16vw 7vw 10vw}.hero h1{font-size:clamp(3.1rem,15vw,5.5rem)}.portrait{min-height:72vw}.section{grid-template-columns:1fr;padding:5rem 7vw}.cards{grid-template-columns:1fr}.cards article{margin-right:0}.project-grid{grid-template-columns:1fr}.project-grid article{border-bottom:1px solid var(--line);margin-right:0}.education-list>div{grid-template-columns:1fr;gap:.35rem}.contact{padding:6rem 7vw}footer{gap:1rem;flex-direction:column}}
+
+/* Practical Wayfinder editorial refinements */
+.intro .lead{font-family:"Libre Caslon Display",Georgia,serif;font-size:clamp(1.55rem,2.5vw,2.4rem);line-height:1.25;color:var(--ink);margin:0 0 2rem}
+.intro .ethos{padding-top:1.5rem;margin-top:2rem;border-top:1px solid var(--line);color:var(--ink)}
+.intro .ethos em{font-size:.92rem;color:var(--muted)}
+.hero .dek strong{font-family:"Libre Caslon Display",Georgia,serif;font-weight:400;font-size:clamp(1.4rem,2.4vw,2.3rem);color:var(--ivory)}
+@media(max-width:900px){.site-header{height:auto;min-height:82px;flex-wrap:wrap;gap:.6rem;padding:1rem 7vw}.site-header nav{display:flex;flex-wrap:wrap;gap:.45rem 1rem}.site-header nav a{font-size:.74rem}.hero{min-height:auto}.hero-copy{padding-top:12vw}.intro .lead{font-size:1.65rem}}
+
+/* Editorial insight: present-tense observations */
+.canine-insight{margin:2.4rem 0;padding:.3rem 0 .3rem 1.6rem;border-left:3px solid var(--gold);max-width:790px}
+.intro .canine-insight p{font-family:"Libre Caslon Display",Georgia,serif;font-size:clamp(1.45rem,2.1vw,2rem);line-height:1.4;color:var(--ink);margin:0}
+
+/* Restored professional occupation listing */
+.hero .occupations{max-width:760px;color:#cbd2d3;font-size:clamp(.85rem,1.05vw,1rem);line-height:1.8;margin:.5rem 0 0}
+.hero .occupations span{color:var(--gold);padding:0 .2rem}
+
+/* Areas of Practice editorial descriptors */
+.cards .practice-keywords{color:var(--gold,#b99a5d);font-size:.76rem;letter-spacing:.085em;text-transform:uppercase;line-height:1.65;margin:.55rem 0 .85rem;font-weight:600}
+
+/* Leadership portfolio landing-page enhancements */
+.hero .hero-positioning{max-width:660px;margin:1.3rem 0 0;padding-left:1.15rem;border-left:2px solid var(--gold);color:#f1eadd;font-size:clamp(.96rem,1.2vw,1.12rem);line-height:1.65}
+.hero .actions{flex-wrap:wrap;gap:1rem 1.4rem}
+.hero .actions .text-link{white-space:nowrap}
+.impact-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--paper);padding:2.4rem 8vw;gap:1.5rem;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.impact-strip>div{display:flex;flex-direction:column;gap:.25rem;border-left:2px solid var(--gold);padding-left:1.2rem}
+.impact-strip strong{font-family:"Libre Caslon Display",Georgia,serif;font-size:clamp(2rem,3.2vw,3.25rem);font-weight:400;line-height:1.1;color:var(--navy)}
+.impact-strip span{font-size:.78rem;color:#4d5a54;line-height:1.5}
+#achievements .lead{font-family:"Libre Caslon Display",Georgia,serif;font-size:clamp(1.4rem,2.3vw,2rem);line-height:1.3}
+#achievements h2{font-size:clamp(2.7rem,4.7vw,5rem);line-height:1.05;margin:0 0 1rem}
+@media(max-width:900px){.impact-strip{grid-template-columns:repeat(2,minmax(0,1fr));padding:2rem 7vw;gap:1.8rem 1rem}.hero .actions{margin-top:1.5rem}}
+@media(max-width:420px){.impact-strip strong{font-size:2rem}.impact-strip>div{padding-left:.7rem}.impact-strip span{font-size:.72rem}}
